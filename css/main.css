@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #2c2c2c;
+    color: #ffffff;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -99,40 +99,78 @@ textarea {
 
 
 html {
-  background-color: #2c2c2c;
+  background-color: #ffffff;
   height: 100%;
   width: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
+  padding: 1.5em;
+  color: #ffffff;
   font-size: 1em;
   height: 100%;
+  font-family: 'Noto Serif', serif;
+}
+
+header {
+    font-size: 3em;
+
+}
+header,
+footer {
+    background-color: #ffffff;
+    width: 100%;
+    color: #302F32;
+}
+
+main {
+    background-color: pink;
+    color: #302F32;
+    width: 100%;
+    font-size: 2em;
+}
+
+main span {
+    font-weight: bold;
+    color: pink;
+}
+
+header,
+footer,
+main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: normal;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  flex-flow: row wrap;
 }
+
+
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  background-color: pink;
+  color: #302F32;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #2c2c2c;
+  font-size: 1.4em;
   height: 300px;
   width: 30%;
   justify-content: center;
   align-items: center;
   display: flex;
-  padding: 15px;
+  padding: 10px;
 }
 
+/*-- 
 .div-1 {
     border-right: 1px solid white;
 }
@@ -140,6 +178,7 @@ body {
 .div-2 {
     border-right: 1px solid white;
 }
+--*/
 
 
 /* ==========================================================================
